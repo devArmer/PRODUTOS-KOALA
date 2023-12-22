@@ -1,0 +1,528 @@
+<head>
+    <link rel="stylesheet" href="./CASIO-AP-470BK.css" />
+</head>
+
+<div class="cnDescricaoPersonalizada">
+    <div id="header">
+        <ul>
+            <li><a href="#descricao">Descrição</a></li>
+            <!-- <li><a href="#caracteristicas">Características</a></li> -->
+            <li><a href="#garantia">Garantia</a></li>
+            <li><a href="#ficha-tecnica">Ficha Técnica</a></li>
+            <!-- <li><a href="#downloads">Downloads</a></li> -->
+            <!--	<li><a href="#comparativo">Comparativo</a></li> --><!--	<li><a href="#avaliacoes">Avaliações</a></li> -->
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+    </div>
+
+    <section id="videos">
+        <div class="videos-descricao">
+            <div class="video-wrapper active">
+                <iframe
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen=""
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/-1FedaZCvVg?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0"
+                    title="YouTube video player"
+                ></iframe>
+            </div>
+        </div>
+        <!-- <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button> -->
+
+        <script>
+            const videos = document.querySelectorAll(".video-wrapper");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            let currentIndex = 0;
+
+            function showVideo(index) {
+                videos.forEach((video, i) => {
+                    if (i === index) {
+                        video.classList.add("active");
+                    } else {
+                        video.classList.remove("active");
+                    }
+                });
+            }
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex > 0 ? currentIndex - 1 : videos.length - 1;
+                showVideo(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex < videos.length - 1 ? currentIndex + 1 : 0;
+                showVideo(currentIndex);
+            });
+        </script>
+    </section>
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="descricao">
+        <h2 class="titulo">Descrição</h2>
+
+        <h2>Piano Digital Casio Celviano AP-470 Preto!</h2>
+
+        <h1>
+            Expressão musical excepcional: Descubra o potencial do Piano Digital
+            Casio Celviano AP-470 na elegante cor preta.
+        </h1>
+
+        <p style="text-align: justify">
+            Feito para performances luxuosas e brilhantes: este é o Casio
+            Celviano AP-470. Um piano digital com 88 teclas que tem o toque
+            firme que transforma os pensamentos do músico em sons e a sensação
+            natural de tocar como um piano de cauda. Basta você ligá-lo na
+            tomada e aproveitar! E caso você queira buscar ainda mais funções, é
+            só conectar o teclado no seu computador ou dispositivo móvel pela
+            conexão USB e usar seu aplicativo favorito.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p style="text-align: justify">
+            O AP-470 é um piano superior para performances reverberantes,
+            poderosas e intensas. Ele possui sons instalados de dois pianos de
+            cauda mundialmente renomados, basta fazer a seleção; simulador de
+            tampa para reproduzir os mesmos efeitos acústicos de um piano de
+            cauda; sistema de som Morphing AiR que incorpora um simulador de
+            ressonância estéreo para todas as 88 teclas; simulador de teclas
+            desligadas para reproduzir naturalmente as nuances de quando os
+            dedos deixam as teclas; função simulador de hall para simular as
+            diferentes características acústicas das salas de concerto de fama
+            mundial; e porta unidade flash USB para salvar suas performances.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="caracteristicas">
+        <h2 class="titulo">Características</h2>
+
+        <ul class="check">
+            <li>
+                Tecnologia de amostragem de alta resolução que reproduz com
+                fidelidade os timbres de um piano de cauda.
+            </li>
+            <li>
+                Amplamente diversificado, incluindo uma gama de pianos,
+                instrumentos de corda e outros sons.
+            </li>
+            <li>
+                Permite que você toque peças complexas sem interrupções nas
+                notas.
+            </li>
+            <li>
+                Alto-falantes integrados proporcionam um som encorpado e
+                imersivo.
+            </li>
+            <li>
+                Inclui efeitos de reverb e chorus para adicionar profundidade e
+                ambiência ao som.
+            </li>
+            <li>
+                Acabamento preto elegante que complementa qualquer ambiente.
+            </li>
+            <li>
+                Opção de adicionar um móvel que não apenas dá suporte ao piano,
+                mas também aumenta o apelo estético.
+            </li>
+            <li>
+                Permite praticar usando fones de ouvido, ideal para ambientes
+                silenciosos.
+            </li>
+            <li>
+                Oferece qualidade sonora excepcional com nuances e detalhes
+                precisos.
+            </li>
+            <li>
+                Construído para durar, resistindo ao desgaste do uso regular.
+            </li>
+        </ul>
+
+        <h4>SIMULADOR:</h4>
+
+        <ul class="check">
+            <li>Ressonância das cordas</li>
+            <li>Ressonância do abafador</li>
+            <li>Ruído do abafador</li>
+            <li>Simulador de tampa</li>
+            <li>Simulador de teclas desligadas</li>
+            <li>Ruído de ação da tecla ativado e desativado</li>
+        </ul>
+         
+
+        <h4>TIMBRES:22 TIMBRES INTEGRADOS:</h4>
+
+        <ul class="check">
+            <li>Piano de cauda 1 (Concert, Mellow, Bright)</li>
+            <li>Piano de cauda 2 (Concert, Mellow, Bright)</li>
+            <li>Piano moderno</li>
+            <li>Piano Rock</li>
+            <li>Piano Jazz</li>
+            <li>Piano elétrico 1</li>
+            <li>Piano elétrico 2</li>
+            <li>Piano FM E</li>
+            <li>Piano 60`s E</li>
+            <li>Espineta</li>
+            <li>Vibrafone</li>
+            <li>Cordas 1</li>
+            <li>Cordas 2</li>
+            <li>Órgão de Tubos</li>
+            <li>Órgão de Jazz</li>
+            <li>Órgão Eletrônico 1</li>
+            <li>Órgão Eletrônico 2</li>
+            <li>BAIXO (MAIS BAIXO)</li>
+        </ul>
+         
+
+        <h4>OUTRAS FUNÇÕES:</h4>
+
+        <ul class="check">
+            <li>1 botão de PIANO DE CAUDA</li>
+            <li>2 botões de PIANO DE CAUDA</li>
+            <li>Tampa de teclado deslizante</li>
+            <li>
+                Desligamento automático: desliga depois de aprox. 4 horas sem
+                operação (configuração padrão)
+            </li>
+            <li>Modo fone de ouvido</li>
+            <li>EQ de sinc. de volume</li>
+        </ul>
+    </section>
+    <!-- ----------------------------------- -->
+
+    <hr />
+    <section id="garantia">
+        <h2 class="titulo">Garantia</h2>
+
+        <p style="text-align: center">
+            <img
+                height="255"
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/garantia-koala1-ano.png"
+                width="651"
+                alt="Imagem de garantia"
+            />
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="ficha-tecnica">
+        <h2 class="titulo">Ficha Técnica</h2>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr class="trOne">
+                    <td class="trOne">MARCA:</td>
+                    <td class="trOne">Casio</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MODELO:</td>
+                    <td class="trTwo">AP-470</td>
+                </tr>
+                <tr>
+                    <td class="trOne">TECLADO:</td>
+                    <td class="trOne">
+                        88 teclas, Teclado com sensor triplo e ação de martelo
+                        em escala II, Teclas que imitam ébano e marfim
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">RESPOSTA AO TOQUE:</td>
+                    <td class="trTwo">3 níveis de sensibilidade, desligado</td>
+                </tr>
+                <tr>
+                    <td class="trOne">SISTEMA DE SOM:</td>
+                    <td class="trOne">Sistema de som AiR</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">POLIFONIA MÁXIMA:</td>
+                    <td class="trTwo">256</td>
+                </tr>
+                <tr>
+                    <td class="trOne">CAMADA/DIVISÃO:</td>
+                    <td class="trOne">
+                        Camada (Excluindo timbres de baixo), Divisão (Somente
+                        timbres de baixo da faixa inferior)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">EFEITOS DIGITAIS:</td>
+                    <td class="trTwo">
+                        Simulador de hall (4 tipos), Coro (4 tipos), Brilho (-3
+                        a 0 a 3), DSP (embutido em alguns timbres)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trOne">MÚSICAS INTEGRADAS:</td>
+                    <td class="trOne">
+                        10 (Apresentação de concerto), 60 (Biblioteca de música)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">EXPANSÃO DE MÚSICAS:</td>
+                    <td class="trTwo">
+                        10 músicas (máx.) Até aproximadamente 90 KB/música
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trOne">FUNÇÃO DE LIÇÕES:</td>
+                    <td class="trOne">
+                        ATIVAR/DESATIVAR parte (Parte da lição: mão
+                        direita/esquerda)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">METRÔNOMO:</td>
+                    <td class="trTwo">
+                        Compassos: 0 a 9 (Intervalo de tempo: um quarto de nota
+                        = 20 a 255)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trOne">GRAVADOR MIDI:</td>
+                    <td class="trOne">
+                        2 trilhas x 1 música, máximo de aproximadamente 5.000
+                        notas, gravação/reprodução em tempo real
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">GRAVADOR DE ÁUDIO:</td>
+                    <td class="trTwo">
+                        44,1 kHz em formato WAV / até aproximadamente 25 min.
+                        por música
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trOne">TRANSPOSIÇÃO DE TECLAS:</td>
+                    <td class="trOne">2 oitavas (-12 a +12 semitons)</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CONTROLE DE AFINAÇÃO:</td>
+                    <td class="trTwo">A4 = 415,5 Hz a 440,0 Hz a 465,9 Hz</td>
+                </tr>
+                <tr>
+                    <td class="trOne">PEDAIS:</td>
+                    <td class="trOne">
+                        3 pedais (abafador, suave, sustain)* abafador = operação
+                        suave
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MIDI:</td>
+                    <td class="trTwo">
+                        Este produto não é equipado com terminais MIDI. A
+                        comunicação MIDI entre o produto e o computador é
+                        realizada por meio da porta USB.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trOne">ALTO-FALANTES:</td>
+                    <td class="trOne">
+                        12 cm x 2 + 4 cm x 2 (bidirecional, 4 alto-falantes)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">AMPERAGEM DE SAÍDA:</td>
+                    <td class="trTwo">20 W + 20 W</td>
+                </tr>
+                <tr>
+                    <td class="trOne">TERMINAIS DE ENTRADA/SAÍDA:</td>
+                    <td class="trOne">
+                        TELEFONES/SAÍDA x 2 (estéreo padrão); LINE OUT (L/MONO,
+                        R); USB: tipos A e B; Alimentação externa (24V DC); *
+                        Cabo USB (tipo A-B) solicitado para usar o terminal USB
+                        para conexão com o computador
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">ACESSÓRIOS INCLUÍDOS:</td>
+                    <td class="trTwo">
+                        Banqueta com altura ajustável, adaptador CA
+                        (AD-E24250LW), suporte para partitura, encaixe para
+                        fones de ouvido
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- ------------------------- -->
+
+        <h4>DIMENSÕES DAS CAIXAS</h4>
+
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">Altura</td>
+                    <td class="trOne">Largura</td>
+                    <td class="trOne">Comprimento</td>
+                    <td class="trOne">Peso</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">86,1cm</td>
+                    <td class="trTwo">42,7cm</td>
+                    <td class="trTwo">141,7cm</td>
+                    <td class="trTwo">63,4kg</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>DENTRO DA CAIXA</h4>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">
+                        01 Piano Digital Casio Celviano AP-470 Preto
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Banqueta com altura ajustável</td>
+                </tr>
+                <tr>
+                    <td class="trOne">01 adaptador CA (AD-E24250LW)</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 suporte para partitura</td>
+                </tr>
+                <tr>
+                    <td class="trOne">01 encaixe para fones de ouvido</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- <hr />
+    <section id="downloads">
+        <h2 class="titulo">Downloads</h2>
+
+        <h4>Guia Rápido</h4>
+
+        <h4>Manual do Usuário</h4>
+
+        <p>
+            <a
+                class="manual-downloads"
+                href="https://drive.google.com/file/d/1LDDEozIaBqKJP9CIIXY_LgR7Yw-831Ij/view"
+                target="_blank"
+            >
+                Clique aqui</a
+            >
+            para fazer o download do manual.
+        </p>
+    </section> -->
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="action">
+        <p>
+            🎵 Encontre o som perfeito na Loja Koala Music! 🎶<br /><br />
+
+            Entenda por que comprar conosco é a escolha certa:<br />
+            ✅ Parcelamento sem juros e desconto à vista.<br />
+            ✅ Frete econômico para ajudar seu bolso.<br />
+            ✅ Garantia, nota fiscal e produtos originais garantidos.<br />
+            ✅ Atendimento dedicado e eficiente.<br /><br />
+
+            Vantagens adicionais em comprar conosco:<br />
+            ✅ Compra segura do começo ao fim.<br />
+            ✅ Pagamentos seguros intermediados pela Pagar.me e PagHiper.<br />
+            ✅ Política de Troca e Devolução em conformidade com o Código de
+            Defesa do Consumidor.<br />
+            ✅ Suporte atencioso e respeitoso.<br />
+            Não importa o que você procura, nós entregamos na sua porta.<br />
+            <a href="#comprar">🛒 Compre na Loja Koala Music agora mesmo! 🎶</a
+            ><br />
+        </p>
+         
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="tags">
+        <h2 class="titulo">Tags</h2>
+
+        <ul class="tags">
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=teclado"
+                    >Teclado</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=casio">Casio</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=piano+digital+ap-470"
+                    >Piano Digital AP-470</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=ap-470"
+                    >AP-470</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=piano+digital"
+                    >Piano Digital</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=teclado+casio"
+                    >Teclado Casio</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=piano+casio"
+                    >Piano Casio</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=pianos+digitais+celviano"
+                    >Pianos digitais Celviano</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=piano+barato"
+                    >Piano Barato</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=teclado+barato"
+                    >Teclado Barato</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=casio+ap-470"
+                    >Casio AP-470</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=piano+digital+casio"
+                    >Piano Digital Casio</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=celviano+ap470"
+                    >Celviano AP-470</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=casio+celviano"
+                    >Casio Celviano</a
+                >
+            </li>
+        </ul>
+    </section>
+</div>

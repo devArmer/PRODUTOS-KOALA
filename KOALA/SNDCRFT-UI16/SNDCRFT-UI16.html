@@ -1,0 +1,479 @@
+<head>
+    <link rel="stylesheet" href="./SNDCRFT-UI16.css" />
+</head>
+
+<div class="cnDescricaoPersonalizada">
+    <div id="header">
+        <ul>
+            <li><a href="#descricao">Descrição</a></li>
+            <li><a href="#caracteristicas">Características</a></li>
+            <li><a href="#garantia">Garantia</a></li>
+            <li><a href="#ficha-tecnica">Ficha Técnica</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <!--	<li><a href="#comparativo">Comparativo</a></li> --><!--	<li><a href="#avaliacoes">Avaliações</a></li> -->
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+    </div>
+
+    <section id="videos">
+        <div class="videos-descricao">
+            <div class="video-wrapper active">
+                <iframe
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen=""
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/G7PWbqaF4ds?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0"
+                    title="YouTube video player"
+                ></iframe>
+            </div>
+        </div>
+        <!-- <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button> -->
+
+        <script>
+            const videos = document.querySelectorAll(".video-wrapper");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            let currentIndex = 0;
+
+            function showVideo(index) {
+                videos.forEach((video, i) => {
+                    if (i === index) {
+                        video.classList.add("active");
+                    } else {
+                        video.classList.remove("active");
+                    }
+                });
+            }
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex > 0 ? currentIndex - 1 : videos.length - 1;
+                showVideo(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex < videos.length - 1 ? currentIndex + 1 : 0;
+                showVideo(currentIndex);
+            });
+        </script>
+    </section>
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="descricao">
+        <h2 class="titulo">Descrição</h2>
+
+        <h2>Mesa de Som Digital Soundcraft UI16</h2>
+
+        <h1>
+            Controle Total na Ponta dos Dedos: Explore a Mesa de Som Digital
+            Soundcraft UI16.
+        </h1>
+
+        <p class="justificado">
+            O Soundcraft UI-16 da Soundcraft é um mixer digital inteligente de
+            16 canais com DSP interno e mecanismos de mixagem, que podem ser
+            controlados por qualquer dispositivo com compatibilidade para
+            tablets iPad/Android, PCs e Smartphones. Possui estrutura similar a
+            stage-boxes, conexão WiFi ou Ethernet e é equipado com um
+            sofisticado DSP interno e mecanismos de mixagem, o que garante
+            controle por qualquer dispositivo com compatibilidade ao HTML5.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p>
+            <img
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/sndcrft-ui16-1.jpg"
+                style="width: 100%"
+            />
+        </p>
+
+        <p class="justificado">
+            A linha Soundcraft Ui é composta por dois modelos de mixers digitais
+            wireless: Ui12 e Ui16. Os produtos Ui são mixers digitais wireless
+            inteligentes, onde o clássico pré-mic da Soundcraft é alimentado
+            pelo sofisticado DSP interno. O software é controlado pelo
+            processador interno, que hospeda o servidor web na Mix e é acessado
+            via portas Wi-Fi ou Ethernet. O mixer Sound Craft Ui16 apresenta
+            compatibilidade com múltiplas plataformas, sendo possível controlar
+            através de dispositivos móveis e computadores, e possibilitando o
+            uso de até 10 dispositivos de controle simultaneamente.
+            Adicionalmente, as UI 12 e UI 16 apresentam processamento digital
+            integrado da DBX, DigiTech e Lexicon, incluindo o DBX AFS2, um
+            avançado processador de ruídos, além do amplificador modelador
+            DigiTech Amp e mais. Ambos os modelos permitem controlar remotamente
+            o ganho de microfone, contam com Phantom Power, com EQ paramétrico
+            de 4 bandas e com porta antirruído nos canais de entrada. Por fim,
+            os mixers oferecem equalizador gráfico de 31 bandas e compressor em
+            todas as saídas, assim como analisador de frequência em tempo real
+            (RTA) nas entradas e saídas. Há três barramentos dedicados Lexicon
+            FX integrados: Reverb, Delay e Chorus.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p>
+            <img
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/sndcrft-ui16-2.jpg"
+                style="width: 100%"
+            />
+        </p>
+
+        <p class="justificado">
+            Os mixers da Série Ui apresentam compatibilidade entre plataformas
+            com dispositivos iOS, Android, Windows, Mac OS e Linux, e podem usar
+            até 10 dispositivos de controle simultaneamente. Além disso, o Ui 12
+            e o Ui 16 incorporam cada processamento de sinal HARMAN integrado do
+            dbx, DigiTech e Lexicon, incluindo o dbx AFS2, o DigiTech Amp
+            Modeling e muito mais. Ambos os modelos apresentam ganho de
+            microfone e phantom power totalmente recuperáveis e controlados
+            remotamente, além de EQ paramétrico de 4 bandas, filtro passa-alto,
+            compressor, de-esser e gate de ruído nos canais de entrada.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p>
+            <img
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/sndcrft-ui16-3.jpg"
+                style="width: 100%"
+            />
+        </p>
+
+        <p class="justificado">
+            Ambos os mixers oferecem EQ gráfico de 31 bandas, gate de ruído e
+            compressor em todas as saídas, além de analisador de freqüência em
+            tempo real (RTA) em entradas e saídas. Construído em três busses
+            Lexicon FX dedicados: Reverb, Delay e Chorus. Além disso, os
+            controles do mixer incluem subgrupos, grupos Mute e grupos View,
+            entre outros. Os misturadores da Série Ui apresentam capacidade de
+            recall total de Show / Snapshot com cofres de recall de canal.
+            enquanto os recursos de bloqueio de segurança permitem a
+            personalização do acesso do dispositivo a apenas funções específicas
+            e combina, se necessário. Ambos os mixers também oferecem interfaces
+            de rede independentes para controle simultâneo por Wi-Fi e Ethernet,
+            além de um chassi robusto pronto para o piso para aplicações ao
+            vivo.
+        </p>
+
+        <p>
+            <img
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/sndcrft-ui16-4.jpg"
+                style="width: 100%"
+            />
+        </p>
+
+        <p class="justificado">
+            O Ui16 possui oito entradas de microfone / linha combo XLR, quatro
+            entradas de microfone XLR, dois canais de entradas Hi-Z /
+            instrumento, bem como uma entrada de linha RCA estéreo. Um leitor de
+            mídia USB de 2 canais está incluído, junto com quatro saídas XLR Aux
+            balanceadas, duas saídas de headphone de ¼ de polegada com controle
+            de nível, além de XLR estéreo balanceado e saídas principais de ¼ de
+            polegada. A reprodução de áudio USB de dois canais é compatível com
+            os formatos MP3, WAV e AIFF, e também é possível a funcionalidade de
+            dispositivos de gravação direta de memória USB de 2 canais.
+        </p>
+
+        <p>
+            <img
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/sndcrft-ui16-5.jpg"
+                style="width: 100%"
+            />
+        </p>
+
+        <p class="justificado">
+            Explore todos os recursos do Soundcraft UI16: compre agora mesmo o
+            seu.
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="caracteristicas">
+        <h2 class="titulo">Características</h2>
+
+        <ul class="check">
+            <li>
+                Possibilidade de controle remoto através de um aplicativo para
+                dispositivos móveis.
+            </li>
+            <li>
+                Capacidade de mixar até 16 canais de áudio para uma variedade de
+                fontes.
+            </li>
+            <li>
+                Pré-amps de microfone de alta qualidade para capturar áudio com
+                clareza.
+            </li>
+            <li>
+                Inclusão de efeitos digitais como reverb, delay e equalização.
+            </li>
+            <li>
+                DSP embutido para ajustes de equalização, compressão e outras
+                manipulações.
+            </li>
+            <li>Entradas e saídas variadas, incluindo XLR, P10, RCA e mais.</li>
+            <li>
+                Possibilidade de gravação e reprodução diretamente de
+                dispositivos USB.
+            </li>
+            <li>
+                Conectividade via Wi-Fi e Ethernet para controle e streaming.
+            </li>
+            <li>
+                Painel de controle intuitivo com tela sensível ao toque para
+                fácil navegação.
+            </li>
+            <li>
+                Compatibilidade com dispositivos iOS, Android, Windows e Mac.
+            </li>
+            <li>
+                Oferece recursos de monitoramento individualizado para cada
+                canal.
+            </li>
+            <li>
+                Capacidade de salvar configurações de mixagem para diferentes
+                cenários.
+            </li>
+            <li>Construção durável para uso em shows ao vivo e estúdio.</li>
+            <li>
+                Possibilidade de integração com software de gravação digital.
+            </li>
+            <li>
+                Permite a conexão de várias unidades para aumentar a capacidade
+                de canais.
+            </li>
+            <li>
+                Funções de segurança e controle de acesso para proteger as
+                configurações.
+            </li>
+        </ul>
+    </section>
+    <!-- ----------------------------------- -->
+
+    <hr />
+    <section id="garantia">
+        <h2 class="titulo">Garantia</h2>
+
+        <p style="text-align: center">
+            <img
+                height="255"
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/garantia-koala1-ano.png"
+                width="651"
+                alt="Imagem de garantia"
+            />
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="ficha-tecnica">
+        <h2 class="titulo">Ficha Técnica</h2>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr class="trOne">
+                    <td class="trOne">MARCA:</td>
+                    <td class="trOne">SoundCraft</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MODELO:</td>
+                    <td class="trTwo">UI16</td>
+                </tr>
+                <tr>
+                    <td class="trOne">ENTRADAS:</td>
+                    <td class="trOne">
+                        16 (8 combos 1/4”-TRS/XLR, 4 XLR, 2 linhas e 2 canais de
+                        reprodução digital)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">SAÍDAS:</td>
+                    <td class="trTwo">4 XLR AUX + 2 XLR/P10 Main</td>
+                </tr>
+                <tr>
+                    <td class="trOne">EFEITOS:</td>
+                    <td class="trOne">Reverb, Chorus, Delay, Compressão dbx</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">PHANTOM POWER:</td>
+                    <td class="trTwo">Sim</td>
+                </tr>
+                <tr>
+                    <td class="trOne">EQUALIZADOR:</td>
+                    <td class="trOne">Sim</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- ------------------------- -->
+
+        <h4>DIMENSÕES</h4>
+
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne" style="text-align: center">Altura</td>
+                    <td class="trOne" style="text-align: center">Largura</td>
+                    <td class="trOne" style="text-align: center">
+                        Comprimento
+                    </td>
+                    <td class="trOne" style="text-align: center">Peso</td>
+                </tr>
+                <tr>
+                    <td class="trTwo" style="text-align: center">30cm</td>
+                    <td class="trTwo" style="text-align: center">40cm</td>
+                    <td class="trTwo" style="text-align: center">30cm</td>
+                    <td class="trTwo" style="text-align: center">5,00kg</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>DENTRO DA CAIXA</h4>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">01 Mesa UI16</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Cabo de alimentação</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="downloads">
+        <h2 class="titulo">Downloads</h2>
+
+        <h4>Guia Rápido</h4>
+
+        <h4>Manual do Usuário</h4>
+
+        <p>
+            <a
+                class="manual-downloads"
+                href="https://drive.google.com/file/d/1bxTvyeDDn2bBr7emofR7mO5ddjQ-91UZ/view?usp=sharing"
+                target="_blank"
+            >
+                Clique aqui</a
+            >
+            para fazer o download do manual.
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="action">
+        <p>
+            🎵 Encontre o som perfeito na Loja Koala Music! 🎶<br /><br />
+
+            Entenda por que comprar conosco é a escolha certa:<br />
+            ✅ Parcelamento sem juros e desconto à vista.<br />
+            ✅ Frete econômico para ajudar seu bolso.<br />
+            ✅ Garantia, nota fiscal e produtos originais garantidos.<br />
+            ✅ Atendimento dedicado e eficiente.<br /><br />
+
+            Vantagens adicionais em comprar conosco:<br />
+            ✅ Compra segura do começo ao fim.<br />
+            ✅ Pagamentos seguros intermediados pela Pagar.me e PagHiper.<br />
+            ✅ Política de Troca e Devolução em conformidade com o Código de
+            Defesa do Consumidor.<br />
+            ✅ Suporte atencioso e respeitoso.<br />
+            Não importa o que você procura, nós entregamos na sua porta.<br />
+            <a href="#comprar">🛒 Compre na Loja Koala Music agora mesmo! 🎶</a
+            ><br />
+        </p>
+         
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="tags">
+        <h2 class="titulo">Tags</h2>
+
+        <ul class="tags">
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=harman"
+                    >Harman</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=harmann"
+                    >Harmann</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=sound+carft"
+                    >Sound carft</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=sound+craft"
+                    >Sound Craft</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=soundcraft"
+                    >SoundCraft</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=mesa+digital"
+                    >Mesa Digital</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=console"
+                    >Console</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=mesa+24+canais"
+                    >Mesa 16 Canais</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=mesa+de+som+24+canais"
+                    >Mesa de Som 16 Canais</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=mesa+digital+24+canais"
+                    >MEsa Digital 16 Canais</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=ui24r">UI16R</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=soundcraft+ui24r"
+                    >Soundcraft UI16R</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=ui+24r"
+                    >UI 16R</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=ui+24r"
+                    >UI-16R</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=ui+24+r"
+                    >UI-16-R</a
+                >
+            </li>
+        </ul>
+    </section>
+</div>

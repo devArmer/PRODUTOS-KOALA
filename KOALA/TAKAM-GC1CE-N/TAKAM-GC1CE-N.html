@@ -1,0 +1,378 @@
+<head>
+    <link rel="stylesheet" href="./TAKAM-GC1CE-N.css" />
+</head>
+
+<div class="cnDescricaoPersonalizada">
+    <div id="header">
+        <ul>
+            <li><a href="#descricao">Descrição</a></li>
+            <!-- <li><a href="#caracteristicas">Características</a></li> -->
+            <li><a href="#garantia">Garantia</a></li>
+            <li><a href="#ficha-tecnica">Ficha Técnica</a></li>
+            <!-- <li><a href="#downloads">Downloads</a></li> -->
+            <!--	<li><a href="#comparativo">Comparativo</a></li> --><!--	<li><a href="#avaliacoes">Avaliações</a></li> -->
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+    </div>
+
+    <section id="videos">
+        <div class="videos-descricao">
+            <div class="video-wrapper active">
+                <iframe
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen=""
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/CLWwPBMGER8?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0"
+                    title="YouTube video player"
+                ></iframe>
+            </div>
+        </div>
+        <!-- <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button> -->
+
+        <script>
+            const videos = document.querySelectorAll(".video-wrapper");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            let currentIndex = 0;
+
+            function showVideo(index) {
+                videos.forEach((video, i) => {
+                    if (i === index) {
+                        video.classList.add("active");
+                    } else {
+                        video.classList.remove("active");
+                    }
+                });
+            }
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex > 0 ? currentIndex - 1 : videos.length - 1;
+                showVideo(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex < videos.length - 1 ? currentIndex + 1 : 0;
+                showVideo(currentIndex);
+            });
+        </script>
+    </section>
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="descricao">
+        <h2 class="titulo">Descrição</h2>
+
+        <h2>Violão Clássico Elétrico Takamine GC1CE N Natural</h2>
+
+        <h1>Explorando a Sonoridade do Takamine GC1CE</h1>
+
+        <p>
+            O Violão Takamine GC1CE N é mais um instrumento de ótima qualidade
+            da Série GC "Clássico com Cutaway", eletroacústico com cordas de
+            nylon, sonoridade equilibrada, bom acabamento e Captação eficiente
+        </p>
+
+        <p>
+            Construído com o braço de Mogno e tampo de Spruce, este clássico
+            garante bons timbres e é muito macio e confortável de tocar, e com
+            um ótimo desempenho técnico, para apresentações ao vivo e ensaios.
+        </p>
+
+        <p>
+            O Timbre Plugado do equalizador Pré TP-4T vai lhe conquistar já nos
+            primeiros acordes, com bom controle de Volume e com excelentes
+            nuances de Grave, Médio, Agudo, um Afinador preciso e Check Bateria.
+        </p>
+
+        <p>
+            Todas estas características, fazem do GC1CE N o companheiro ideal e
+            de alto nível para sua performance musical.
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="caracteristicas">
+        <h2 class="titulo">Características</h2>
+
+        <ul class="check">
+            <li>Violão eletroacústico de cordas de aço</li>
+            <li>
+                Pré-amplificador TP-4T com equalizador de 3 bandas e afinador
+                embutido
+            </li>
+            <li>
+                Saída: P10 (jack) para conexão com amplificadores ou sistemas de
+                som
+            </li>
+            <li>
+                Cutaway permitindo acesso facilitado às casas mais altas do
+                braço
+            </li>
+            <li>Roseta: Detalhada, adicionando apelo estético ao design</li>
+            <li>
+                Versatilidade para diversos estilos musicais e ambientes de
+                apresentação
+            </li>
+            <li>
+                Combinação de tampo em abeto com fundo/laterais em mogno para um
+                timbre equilibrado
+            </li>
+        </ul>
+    </section>
+    <!-- ----------------------------------- -->
+
+    <hr />
+    <section id="garantia">
+        <h2 class="titulo">Garantia</h2>
+
+        <p style="text-align: center">
+            <img
+                height="255"
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/garantia-koala3-meses.png"
+                width="651"
+                alt="Imagem de garantia"
+            />
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="ficha-tecnica">
+        <h2 class="titulo">Ficha Técnica</h2>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr class="trOne">
+                    <td class="trOne">MARCA:</td>
+                    <td class="trOne">Takamine</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MODELO:</td>
+                    <td class="trTwo">GC1CE</td>
+                </tr>
+                <tr>
+                    <td class="trOne">FORMATO:</td>
+                    <td class="trOne">Clássico</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CUTAWAY:</td>
+                    <td class="trTwo">Sim</td>
+                </tr>
+                <tr>
+                    <td class="trOne">DESTRO OU CANHOTO:</td>
+                    <td class="trOne">Destro</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">NÚMERO DE CORDAS:</td>
+                    <td class="trTwo">6</td>
+                </tr>
+                <tr>
+                    <td class="trOne">ENCORDOAMENTO:</td>
+                    <td class="trOne">
+                        Nylon - Tensão Normal DAddario Pro Arté
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">SÉRIE:</td>
+                    <td class="trTwo">G</td>
+                </tr>
+                <tr>
+                    <td class="trOne">MATERIAL DO TAMPO:</td>
+                    <td class="trOne">Spruce Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MATERIAL DE LATERAL:</td>
+                    <td class="trTwo">Mahogany Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trOne">MATERIAL DE FUNDO:</td>
+                    <td class="trOne">Mahogany Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">BRAÇO:</td>
+                    <td class="trTwo">Mahogany</td>
+                </tr>
+                <tr>
+                    <td class="trOne">ESCALA:</td>
+                    <td class="trOne">Laurel 64,2cm (25.5")</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">TRASTES:</td>
+                    <td class="trTwo">19</td>
+                </tr>
+                <tr>
+                    <td class="trOne">TARRAXAS:</td>
+                    <td class="trOne">Cromadas, borboletas Madrepérola</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">ACABAMENTO:</td>
+                    <td class="trTwo">Brilhante</td>
+                </tr>
+                <tr>
+                    <td class="trOne">COR:</td>
+                    <td class="trOne">Natural (N)</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">ACOMPANHA BAG:</td>
+                    <td class="trTwo">Não</td>
+                </tr>
+                <tr>
+                    <td class="trOne">NUT:</td>
+                    <td class="trOne">51mm</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CAPTAÇÃO E PREAMP:</td>
+                    <td class="trTwo">Pré TP-4T; Captação Piezo</td>
+                </tr>
+                <tr>
+                    <td class="trOne">CONTROLES:</td>
+                    <td class="trOne">
+                        Volume, Grave, Médio, Agudo, Afinador e Check Bateria;
+                        Alimentação Bateria 9V; Jack de Saída P10
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- ------------------------- -->
+
+        <!-- <h4>DIMENSÕES</h4>
+
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">Altura</td>
+                    <td class="trOne">Largura</td>
+                    <td class="trOne">Comprimento</td>
+                    <td class="trOne">Peso</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">9,3cm</td>
+                    <td class="trTwo">100,2cm</td>
+                    <td class="trTwo">25,1cm</td>
+                    <td class="trTwo">4,0kg</td>
+                </tr>
+            </tbody>
+        </table> -->
+
+        <!-- <h4>DENTRO DA CAIXA</h4>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">01 Mesa UI24R</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Cabo de alimentação</td>
+                </tr>
+            </tbody>
+        </table> -->
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- <hr />
+    <section id="downloads">
+        <h2 class="titulo">Downloads</h2>
+
+        <h4>Guia Rápido</h4>
+
+        <h4>Manual do Usuário</h4>
+
+        <p>
+            <a
+                class="manual-downloads"
+                href="https://drive.google.com/file/d/1LDDEozIaBqKJP9CIIXY_LgR7Yw-831Ij/view"
+                target="_blank"
+            >
+                Clique aqui</a
+            >
+            para fazer o download do manual.
+        </p>
+    </section> -->
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="action">
+        <p>
+            🎵 Encontre o som perfeito na Loja Koala Music! 🎶<br /><br />
+
+            Entenda por que comprar conosco é a escolha certa:<br />
+            ✅ Parcelamento sem juros e desconto à vista.<br />
+            ✅ Frete econômico para ajudar seu bolso.<br />
+            ✅ Garantia, nota fiscal e produtos originais garantidos.<br />
+            ✅ Atendimento dedicado e eficiente.<br /><br />
+
+            Vantagens adicionais em comprar conosco:<br />
+            ✅ Compra segura do começo ao fim.<br />
+            ✅ Pagamentos seguros intermediados pela Pagar.me e PagHiper.<br />
+            ✅ Política de Troca e Devolução em conformidade com o Código de
+            Defesa do Consumidor.<br />
+            ✅ Suporte atencioso e respeitoso.<br />
+            Não importa o que você procura, nós entregamos na sua porta.<br />
+            <a href="#comprar">🛒 Compre na Loja Koala Music agora mesmo! 🎶</a
+            ><br />
+        </p>
+         
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="tags">
+        <h2 class="titulo">Tags</h2>
+
+        <ul class="tags">
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+takamine+gc1ce+n"
+                    >Violão Takamine GC1CE N</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=violao+takamine"
+                    >Violão Takamine</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=takamine+gc1ce+n"
+                    >Takamine GC1CE N</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=gc1cen"
+                    >GC1CEN</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=gc1ce">GC1CE</a>
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=takamine"
+                    >Takamine</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=natural"
+                    >Natural</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=natural"
+                    >Violão Clássico</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=takamine+natural"
+                    >Takamine Natural</a
+                >
+            </li>
+        </ul>
+    </section>
+</div>

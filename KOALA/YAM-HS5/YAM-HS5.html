@@ -1,0 +1,344 @@
+<head>
+    <link rel="stylesheet" href="./YAM-HS5.css" />
+</head>
+
+<div class="cnDescricaoPersonalizada">
+    <div id="header">
+        <ul>
+            <li><a href="#descricao">Descrição</a></li>
+            <!-- <li><a href="#caracteristicas">Características</a></li> -->
+            <li><a href="#garantia">Garantia</a></li>
+            <li><a href="#ficha-tecnica">Ficha Técnica</a></li>
+            <!-- <li><a href="#downloads">Downloads</a></li> -->
+            <!--	<li><a href="#comparativo">Comparativo</a></li> --><!--	<li><a href="#avaliacoes">Avaliações</a></li> -->
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+    </div>
+
+    <section id="videos">
+        <div class="videos-descricao">
+            <div class="video-wrapper active">
+                <iframe
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen=""
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/Dvj3StP4fVE?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0"
+                    title="YouTube video player"
+                ></iframe>
+            </div>
+        </div>
+        <!-- <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button> -->
+
+        <script>
+            const videos = document.querySelectorAll(".video-wrapper");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            let currentIndex = 0;
+
+            function showVideo(index) {
+                videos.forEach((video, i) => {
+                    if (i === index) {
+                        video.classList.add("active");
+                    } else {
+                        video.classList.remove("active");
+                    }
+                });
+            }
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex > 0 ? currentIndex - 1 : videos.length - 1;
+                showVideo(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex < videos.length - 1 ? currentIndex + 1 : 0;
+                showVideo(currentIndex);
+            });
+        </script>
+    </section>
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="descricao">
+        <h2 class="titulo">Descrição</h2>
+
+        <h2>Monitor de Som para Estúdio Yamaha HS5 (unitário) 110V</h2>
+
+        <h1>
+            Os monitores de referência da Yamaha são reconhecidos como
+            referência em todo o mundo.
+        </h1>
+
+        <p>
+            Se suas mixagens ficarem boas nestes monitores, ficarão boas em
+            qualquer lugar
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p> </p>
+
+        <p>
+            Monitores de referência honesta sem processamento "ilusório" que
+            realmente tem sua resposta "flat" com precisão e equilíbrio.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p> </p>
+
+        <p>
+            Os monitores HS são reais referências na monitoração em estúdio,
+            respeitando a tradição da lendária NS10M da Yamaha. Seja mixagem
+            estéreo ou surround 5.1, mixagens que soam bem nos monitores de
+            referência HS da Yamaha soarão bem na maioria dos sistemas de
+            reprodução. Este é o maior objetivo de qualquer monitor de
+            referência.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p> </p>
+
+        <p>
+            Devemos ressaltar também que a série HS não só têm ótima sonoridade,
+            como também possui um belo design.
+        </p>
+
+        <p>
+            Ideal para quem deseja mixar e produzir com confiança e qualidade
+            sonora com ótimo custo e garantia de anos de experiência que a
+            Yamaha tem em monitores de referência.
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- <hr />
+    <section id="caracteristicas">
+        <h2 class="titulo">Características</h2>
+
+        <ul class="check">
+            <li>
+                Pré-amplificadores de microfone: 20 Studer (10 combos, 10 XLR)
+            </li>
+            <li>Entradas de linha: 2 (-10 não balanceado)</li>
+            <li>
+                Saídas de masterização: 2 (+4 XLR, com ajustes de volume
+                individuais)
+            </li>
+            <li>
+                Saídas de fone de ouvido: 2 (com ajuste de volume compartilhado)
+            </li>
+            <li>
+                Saídas AUX.8 (+4 XLR com gráfico de 32 faixas e supressão de
+                retorno AFS2)
+            </li>
+        </ul>
+    </section> -->
+    <!-- ----------------------------------- -->
+
+    <hr />
+    <section id="garantia">
+        <h2 class="titulo">Garantia</h2>
+
+        <p style="text-align: center">
+            <img
+                height="255"
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/garantia-koala1-ano.png"
+                width="651"
+                alt="Imagem de garantia"
+            />
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="ficha-tecnica">
+        <h2 class="titulo">Ficha Técnica</h2>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr class="trOne">
+                    <td class="trOne">MARCA:</td>
+                    <td class="trOne">Yamaha</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MODELO:</td>
+                    <td class="trTwo">HS5 - 110V</td>
+                </tr>
+                <tr>
+                    <td class="trOne">CONFIGURAÇÃO DE AMPLIFICAÇÃO:</td>
+                    <td class="trOne">Bi amplificado</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CROSSOVER:</td>
+                    <td class="trTwo">1 kHz</td>
+                </tr>
+                <tr>
+                    <td class="trOne">TAMANHO DO TRANSDUTOR DE AGUDOS:</td>
+                    <td class="trOne">1"</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">TAMANHO DO TRANSDUTOR DE GRAVES:</td>
+                    <td class="trTwo">5"</td>
+                </tr>
+                <tr>
+                    <td class="trOne">POTÊNCIA RMS:</td>
+                    <td class="trOne">70W</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CONECTORES DE ENTRADA:</td>
+                    <td class="trTwo">1 x XLR e 1 x P10</td>
+                </tr>
+                <tr>
+                    <td class="trOne">RESPOSTA DE FREQUÊNCIA:</td>
+                    <td class="trOne">54Hz - 30kHz</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MONTAGEM:</td>
+                    <td class="trTwo">Gabinete Bass-Flex em MDF.</td>
+                </tr>
+                <tr>
+                    <td class="trOne">COR:</td>
+                    <td class="trOne">Preto</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- ------------------------- -->
+
+        <h4>DIMENSÕES</h4>
+
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">Altura</td>
+                    <td class="trOne">Largura</td>
+                    <td class="trOne">Comprimento</td>
+                    <td class="trOne">Peso</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">28,5</td>
+                    <td class="trTwo">17,0cm</td>
+                    <td class="trTwo">22,2cm</td>
+                    <td class="trTwo">5,3kg</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- <h4>DENTRO DA CAIXA</h4>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">01 Mesa UI24R</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Cabo de alimentação</td>
+                </tr>
+            </tbody>
+        </table> -->
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- <hr />
+    <section id="downloads">
+        <h2 class="titulo">Downloads</h2>
+
+        <h4>Guia Rápido</h4>
+
+        <h4>Manual do Usuário</h4>
+
+        <p>
+            <a
+                class="manual-downloads"
+                href="https://drive.google.com/file/d/1LDDEozIaBqKJP9CIIXY_LgR7Yw-831Ij/view"
+                target="_blank"
+            >
+                Clique aqui</a
+            >
+            para fazer o download do manual.
+        </p>
+    </section> -->
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="action">
+        <p>
+            🎵 Encontre o som perfeito na Loja Koala Music! 🎶<br /><br />
+
+            Entenda por que comprar conosco é a escolha certa:<br />
+            ✅ Parcelamento sem juros e desconto à vista.<br />
+            ✅ Frete econômico para ajudar seu bolso.<br />
+            ✅ Garantia, nota fiscal e produtos originais garantidos.<br />
+            ✅ Atendimento dedicado e eficiente.<br /><br />
+
+            Vantagens adicionais em comprar conosco:<br />
+            ✅ Compra segura do começo ao fim.<br />
+            ✅ Pagamentos seguros intermediados pela Pagar.me e PagHiper.<br />
+            ✅ Política de Troca e Devolução em conformidade com o Código de
+            Defesa do Consumidor.<br />
+            ✅ Suporte atencioso e respeitoso.<br />
+            Não importa o que você procura, nós entregamos na sua porta.<br />
+            <a href="#comprar">🛒 Compre na Loja Koala Music agora mesmo! 🎶</a
+            ><br />
+        </p>
+         
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="tags">
+        <h2 class="titulo">Tags</h2>
+
+        <ul class="tags">
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=monitor+de+referencia+hs5+yamaha"
+                    >Monitor de Referência HS5 Yamaha</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=monitor+hs5+yamaha"
+                    >Monitor HS5 Yamaha</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=monitor+hs5"
+                    >Monitor HS5</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=monitor"
+                    >Monitor</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=hs5">HS5</a>
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=yamaha+hs5"
+                    >Yamaha HS5</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=monitor"
+                    >Monitor</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=yamaha"
+                    >Yamaha</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=yamahahs5"
+                    >YamahaHS5</a
+                >
+            </li>
+        </ul>
+    </section>
+</div>

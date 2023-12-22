@@ -1,0 +1,385 @@
+<head>
+    <link rel="stylesheet" href="./YAM-P45B.css" />
+</head>
+
+<div class="cnDescricaoPersonalizada">
+    <div id="header">
+        <ul>
+            <li><a href="#descricao">Descrição</a></li>
+            <!-- <li><a href="#caracteristicas">Características</a></li> -->
+            <li><a href="#garantia">Garantia</a></li>
+            <li><a href="#ficha-tecnica">Ficha Técnica</a></li>
+            <!-- <li><a href="#downloads">Downloads</a></li> -->
+            <!--	<li><a href="#comparativo">Comparativo</a></li> --><!--	<li><a href="#avaliacoes">Avaliações</a></li> -->
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+    </div>
+
+    <section id="videos">
+        <div class="videos-descricao">
+            <div class="video-wrapper active">
+                <iframe
+                    src="https://www.youtube.com/embed/CGNr7lq6OIU?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0"
+                    frameborder="0"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+        <!-- <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button> -->
+
+        <script>
+            const videos = document.querySelectorAll(".video-wrapper");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            let currentIndex = 0;
+
+            function showVideo(index) {
+                videos.forEach((video, i) => {
+                    if (i === index) {
+                        video.classList.add("active");
+                    } else {
+                        video.classList.remove("active");
+                    }
+                });
+            }
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex > 0 ? currentIndex - 1 : videos.length - 1;
+                showVideo(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex < videos.length - 1 ? currentIndex + 1 : 0;
+                showVideo(currentIndex);
+            });
+        </script>
+    </section>
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="descricao">
+        <h2 class="titulo">Descrição</h2>
+
+        <h2>Piano Digital Yamaha P-45 Preto com Fonte e Pedal</h2>
+
+        <h1>
+            O Compacto Piano Digital de 88 teclas P-45B da Yamaha, oferece o
+            melhor som de piano de cauda criado pelo sistema AWM Stereo
+            Sampling.
+        </h1>
+
+        <p>
+            Suas 88 teclas Graded Hammer oferecem a ação de um piano acústico e
+            oferecem 4 níveis de sensibilidade ao toque, proporcionando sensação
+            de tocar em um verdadeiro piano acústico. O teclado inclui samplers
+            de piano de cauda, piano elétrico, órgão, cordas, cravo, vibrafone e
+            vozes com 64 notas de polifonia. Possui metrônomo e funções de
+            calibração, de afinação, bem como 4 tipos de reverb.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p>
+            O teclado também pode ser dividido em camadas ou o modo Duo para o
+            ensino do piano. A porta USB permite o uso do teclado também como um
+            controlador MIDI.O P-45 oferece a tradicional tecnologia de síntese
+            AWM para reproduzir sons reais de em piano acústico. Essa tecnologia
+            utiliza gravações digitais feitas a partir de instrumentos reais,
+            que permite usufruir da reverberação de um verdadeiro piano acústico
+            onde quer que esteja.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p>
+            Várias configurações do P-45 podem ser alteradas com um único botão.
+            Mantenha pressionado o botão "GRAND PIANO / FUNCTION" e use as
+            teclas para alterar timbres, reproduzir músicas demonstrativas,
+            ajustar o metrônomo e muito mais.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p>*suporte de chão não incluso. Foto ilustrativa</p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- <hr />
+    <section id="caracteristicas">
+        <h2 class="titulo">Características</h2>
+
+        <ul class="check">
+            <li>820 sons e sons Super Articulation Lite</li>
+            <li>290 Estilos.</li>
+            <li>2 canais/41 tipos de efeitos de inclusão de DSP.</li>
+            <li>Quick Sampling.</li>
+            <li>Groove Creato.</li>
+            <li>
+                Live Control Knobs, funcionalidade Motion Effect, pitch bend
+                wheel.
+            </li>
+            <li>Mega Boost.</li>
+            <li>Botões Direct Category Access.</li>
+            <li>Interface de Áudio/Gravação USB.</li>
+            <li>Entrada de microfone e efeitos vocais.</li>
+            <li>Saídas L/R individuais.</li>
+        </ul>
+    </section> -->
+    <!-- ----------------------------------- -->
+
+    <hr />
+    <section id="garantia">
+        <h2 class="titulo">Garantia</h2>
+
+        <p style="text-align: center">
+            <img
+                height="255"
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/garantia-koala1-ano.png"
+                width="651"
+                alt="Imagem de garantia"
+            />
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="ficha-tecnica">
+        <h2 class="titulo">Ficha Técnica</h2>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr class="trOne">
+                    <td class="trOne">MARCA:</td>
+                    <td class="trOne">Yamaha</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MODELO:</td>
+                    <td class="trTwo">P-45 BK</td>
+                </tr>
+                <tr>
+                    <td class="trOne">NÚMERO DE TECLAS:</td>
+                    <td class="trOne">88</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">TIPOS DE TECLAS:</td>
+                    <td class="trTwo">Graded hammer standard (GHS)</td>
+                </tr>
+                <tr>
+                    <td class="trOne">POLIFONIA MÁXIMA:</td>
+                    <td class="trOne">64</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">TIMBRES:</td>
+                    <td class="trTwo">10 Presets / AMW Stereo Sampling</td>
+                </tr>
+                <tr>
+                    <td class="trOne">EFEITOS:</td>
+                    <td class="trOne">
+                        4 Tipos de Reverb REV - X; Efeito Dual/camadas; Efeito
+                        Duo
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">METRÔNOMO:</td>
+                    <td class="trTwo">Sim: 32 - 280 BPM</td>
+                </tr>
+                <tr>
+                    <td class="trOne">MÚSICAS INTEGRADAS:</td>
+                    <td class="trOne">Não</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">RITMOS:</td>
+                    <td class="trTwo">Não</td>
+                </tr>
+                <tr>
+                    <td class="trOne">TRANSPOSIÇÃO:</td>
+                    <td class="trOne">-6 to 0,0 to +6</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">ENTRADAS:</td>
+                    <td class="trTwo">N/A</td>
+                </tr>
+                <tr>
+                    <td class="trOne">SAÍDAS:</td>
+                    <td class="trOne">
+                        Fone Standard; Pedal Sustain; USB to Host
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">ALIMENTAÇÃO / ENERGIA:</td>
+                    <td class="trTwo">Fonte PA-150B Inclusa</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- ------------------------- -->
+
+        <h4>DIMENSÕES</h4>
+
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">Altura</td>
+                    <td class="trOne">Largura</td>
+                    <td class="trOne">Comprimento</td>
+                    <td class="trOne">Peso</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">15,4cm</td>
+                    <td class="trTwo">132,6cm</td>
+                    <td class="trTwo">29,5cm</td>
+                    <td class="trTwo">11,5kg</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>DENTRO DA CAIXA</h4>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">01 Piano Digital Yamaha P-45 Preto</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Apoio de Partitura</td>
+                </tr>
+                <tr>
+                    <td class="trOne">01 Pedal de Controle</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Adaptador / Fonte AC PA-150B</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- <hr />
+    <section id="downloads">
+        <h2 class="titulo">Downloads</h2>
+
+        <h4>Guia Rápido</h4>
+
+        <h4>Manual do Usuário</h4>
+
+        <p>
+            <a
+                class="manual-downloads"
+                href="https://drive.google.com/file/d/1-m5YVZpObpW4aBZQjS76_9YX7GKTdIO9/view"
+                target="_blank"
+            >
+                Clique aqui</a
+            >
+            para fazer o download do manual.
+        </p>
+    </section> -->
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="action">
+        <p>
+            🎵 Encontre o som perfeito na Loja Koala Music! 🎶<br /><br />
+
+            Entenda por que comprar conosco é a escolha certa:<br />
+            ✅ Parcelamento sem juros e desconto à vista.<br />
+            ✅ Frete econômico para ajudar seu bolso.<br />
+            ✅ Garantia, nota fiscal e produtos originais garantidos.<br />
+            ✅ Atendimento dedicado e eficiente.<br /><br />
+
+            Vantagens adicionais em comprar conosco:<br />
+            ✅ Compra segura do começo ao fim.<br />
+            ✅ Pagamentos seguros intermediados pela Pagar.me e PagHiper.<br />
+            ✅ Política de Troca e Devolução em conformidade com o Código de
+            Defesa do Consumidor.<br />
+            ✅ Suporte atencioso e respeitoso.<br />
+            Não importa o que você procura, nós entregamos na sua porta.<br />
+            <a href="#comprar">🛒 Compre na Loja Koala Music agora mesmo! 🎶</a
+            ><br />
+        </p>
+         
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="tags">
+        <h2 class="titulo">Tags</h2>
+
+        <ul class="tags">
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=yamaha"
+                    >Yamaha</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=piano+de+cauda"
+                    >Piano de Cauda</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=piano+de+calda"
+                    >Piano de Calda</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=piano+digital"
+                    >Piano Digital</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=yamaha+p+45"
+                    >Yamaha P-45</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=p45">P45</a>
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=p+45">P 45</a>
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=p+45+bk"
+                    >P-45 BK</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=p45+bk"
+                    >P45 BK</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=p+45+bk"
+                    >P 45 Bk</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=p45+preto"
+                    >P45 Preto</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=teclado+yamaha"
+                    >Teclado Yamaha</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=piano+de+parede"
+                    >Piano de Parede</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=piano+de+armario"
+                    >Piano de Armário</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=piano+de+apartamento"
+                    >Piano de Apartamento</a
+                >
+            </li>
+        </ul>
+    </section>
+</div>

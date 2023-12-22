@@ -1,0 +1,410 @@
+<head>
+    <link rel="stylesheet" href="./TAKAM-GD12CE-NS.css" />
+</head>
+
+<div class="cnDescricaoPersonalizada">
+    <div id="header">
+        <ul>
+            <li><a href="#descricao">Descrição</a></li>
+            <!-- <li><a href="#caracteristicas">Características</a></li> -->
+            <li><a href="#garantia">Garantia</a></li>
+            <li><a href="#ficha-tecnica">Ficha Técnica</a></li>
+            <!-- <li><a href="#downloads">Downloads</a></li> -->
+            <!--	<li><a href="#comparativo">Comparativo</a></li> --><!--	<li><a href="#avaliacoes">Avaliações</a></li> -->
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+    </div>
+
+    <section id="videos">
+        <div class="videos-descricao">
+            <div class="video-wrapper active">
+                <iframe
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen=""
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/JyaeIbiAIqg?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0"
+                    title="YouTube video player"
+                ></iframe>
+            </div>
+        </div>
+        <!-- <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button> -->
+
+        <script>
+            const videos = document.querySelectorAll(".video-wrapper");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            let currentIndex = 0;
+
+            function showVideo(index) {
+                videos.forEach((video, i) => {
+                    if (i === index) {
+                        video.classList.add("active");
+                    } else {
+                        video.classList.remove("active");
+                    }
+                });
+            }
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex > 0 ? currentIndex - 1 : videos.length - 1;
+                showVideo(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex < videos.length - 1 ? currentIndex + 1 : 0;
+                showVideo(currentIndex);
+            });
+        </script>
+    </section>
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="descricao">
+        <h2 class="titulo">Descrição</h2>
+
+        <h2>Violão Folk Elétrico Takamine GD12CE NS Fosco</h2>
+
+        <h1>
+            Um som autêntico e versátil: Explore o potencial do Violão Folk
+            Elétrico Takamine GD12CE NS Fosco!
+        </h1>
+
+        <p style="text-align: justify">
+            O Violão Takamine GD12CE NS é mais um instrumento de ótima qualidade
+            da Série GD "Folk com cutaway", eletroacústico com cordas de Aço,
+            que reúne ótima sonoridade, tocabilidade confortável e belo
+            acabamento.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p style="text-align: justify">
+            Com Corpo e Tampo de Sapele Laminado, Braço Mahogany e escala de
+            Laurel, este folk garante bons timbres e é muito macio e confortável
+            de tocar, e com um ótimo desempenho técnico, para apresentações ao
+            vivo e ensaios.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p style="text-align: justify">
+            O GD12CE possui um timbre acústico bem vivo e brilhante, perfeito
+            para batidas e dedilhados nos mais variados estilos.
+        </p>
+
+        <p style="text-align: justify">
+            O Timbre Plugado do equalizador Pré TP-4T vai lhe conquistar já nos
+            primeiros acordes, com bom controle de Volume e com excelentes
+            nuances de Grave, Médio, Agudo, um Afinador preciso e Check Bateria.
+        </p>
+
+        <p style="text-align: justify">
+            Todas estas caracteristícas, fazem do GD12 um ótimo companheiro para
+            todas as aventuras musicais.
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="caracteristicas">
+        <h2 class="titulo">Características</h2>
+
+        <ul class="check">
+            <li>
+                Apresenta o icônico corpo Folk que oferece um equilíbrio notável
+                entre conforto e projeção sonora.
+            </li>
+            <li>
+                Construído com tampo sólido que contribui para um som rico,
+                ressonante e maior capacidade de projeção.
+            </li>
+            <li>
+                O acabamento fosco confere uma estética elegante e um toque
+                suave, enquanto também permite a ressonância natural da madeira.
+            </li>
+            <li>
+                O braço do violão é projetado para oferecer conforto durante
+                longas sessões de tocar, facilitando a execução de acordes e
+                melodias.
+            </li>
+            <li>
+                Os marcadores de posição no braço auxiliam na orientação durante
+                a execução, especialmente para iniciantes.
+            </li>
+            <li>
+                Equipado com tarraxas de afinamento suave e preciso, ajudando a
+                manter a afinação estável.
+            </li>
+            <li>
+                Oferece uma combinação equilibrada entre qualidade e preço,
+                tornando-o uma escolha acessível para músicos de diversos
+                níveis.
+            </li>
+            <li>
+                Tanto sua qualidade sonora quanto a capacidade de amplificação o
+                tornam uma opção popular para apresentações ao vivo.
+            </li>
+        </ul>
+    </section>
+    <!-- ----------------------------------- -->
+
+    <hr />
+    <section id="garantia">
+        <h2 class="titulo">Garantia</h2>
+
+        <p style="text-align: center">
+            <img
+                height="255"
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/garantia-koala3-meses.png"
+                width="651"
+                alt="Imagem de garantia"
+            />
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="ficha-tecnica">
+        <h2 class="titulo">Ficha Técnica</h2>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr class="trOne">
+                    <td class="trOne">MARCA:</td>
+                    <td class="trOne">Takamine</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MODELO:</td>
+                    <td class="trTwo">GD12CE</td>
+                </tr>
+                <tr>
+                    <td class="trOne">FORMATO:</td>
+                    <td class="trOne">Clássico</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">FORMATO:</td>
+                    <td class="trTwo">Folk</td>
+                </tr>
+                <tr>
+                    <td class="trOne">CUTAWAY:</td>
+                    <td class="trOne">Sim</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">DESTRO OU CANHOTO:</td>
+                    <td class="trTwo">Destro</td>
+                </tr>
+                <tr>
+                    <td class="trOne">NÚMERO DE CORDAS:</td>
+                    <td class="trOne">6</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">ENCORDOAMENTO:</td>
+                    <td class="trTwo">Aço .012 / .053 - D'Addario</td>
+                </tr>
+                <tr>
+                    <td class="trOne">SÉRIE:</td>
+                    <td class="trOne">G</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MATERIAL DO TAMPO:</td>
+                    <td class="trTwo">Spruce Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trOne">MATERIAL DE LATERAL:</td>
+                    <td class="trOne">Sapele Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MATERIAL DE FUNDO:</td>
+                    <td class="trTwo">Sapele Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trOne">BRAÇO:</td>
+                    <td class="trOne">Mahogany</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">ESCALA:</td>
+                    <td class="trTwo">Laurel 64,2cm (25.5)</td>
+                </tr>
+                <tr>
+                    <td class="trOne">TRASTES:</td>
+                    <td class="trOne">20</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">TARRAXAS:</td>
+                    <td class="trTwo">Blindadas Cromadas</td>
+                </tr>
+                <tr>
+                    <td class="trOne">ACABAMENTO:</td>
+                    <td class="trOne">Fosco</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">COR:</td>
+                    <td class="trTwo">Natural Satin (NS)</td>
+                </tr>
+                <tr>
+                    <td class="trOne">ACOMPANHA BAG:</td>
+                    <td class="trOne">Não</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">NUT:</td>
+                    <td class="trTwo">42,8mm</td>
+                </tr>
+                <tr>
+                    <td class="trOne">CAPTAÇÃO E PREAMP:</td>
+                    <td class="trOne">Pré TP-4T; Captação Piezo</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CONTROLES:</td>
+                    <td class="trTwo">
+                        Volume, Grave, Médio, Agudo, Afinador e Check Bateria;
+                        Alimentação Bateria 9V; Jack de Saída P10
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- ------------------------- -->
+
+        <!-- <h4>DIMENSÕES</h4>
+
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">Altura</td>
+                    <td class="trOne">Largura</td>
+                    <td class="trOne">Comprimento</td>
+                    <td class="trOne">Peso</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">9,3cm</td>
+                    <td class="trTwo">100,2cm</td>
+                    <td class="trTwo">25,1cm</td>
+                    <td class="trTwo">4,0kg</td>
+                </tr>
+            </tbody>
+        </table> -->
+
+        <!-- <h4>DENTRO DA CAIXA</h4>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">01 Mesa UI24R</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Cabo de alimentação</td>
+                </tr>
+            </tbody>
+        </table> -->
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- <hr />
+    <section id="downloads">
+        <h2 class="titulo">Downloads</h2>
+
+        <h4>Guia Rápido</h4>
+
+        <h4>Manual do Usuário</h4>
+
+        <p>
+            <a
+                class="manual-downloads"
+                href="https://drive.google.com/file/d/1LDDEozIaBqKJP9CIIXY_LgR7Yw-831Ij/view"
+                target="_blank"
+            >
+                Clique aqui</a
+            >
+            para fazer o download do manual.
+        </p>
+    </section> -->
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="action">
+        <p>
+            🎵 Encontre o som perfeito na Loja Koala Music! 🎶<br /><br />
+
+            Entenda por que comprar conosco é a escolha certa:<br />
+            ✅ Parcelamento sem juros e desconto à vista.<br />
+            ✅ Frete econômico para ajudar seu bolso.<br />
+            ✅ Garantia, nota fiscal e produtos originais garantidos.<br />
+            ✅ Atendimento dedicado e eficiente.<br /><br />
+
+            Vantagens adicionais em comprar conosco:<br />
+            ✅ Compra segura do começo ao fim.<br />
+            ✅ Pagamentos seguros intermediados pela Pagar.me e PagHiper.<br />
+            ✅ Política de Troca e Devolução em conformidade com o Código de
+            Defesa do Consumidor.<br />
+            ✅ Suporte atencioso e respeitoso.<br />
+            Não importa o que você procura, nós entregamos na sua porta.<br />
+            <a href="#comprar">🛒 Compre na Loja Koala Music agora mesmo! 🎶</a
+            ><br />
+        </p>
+         
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="tags">
+        <h2 class="titulo">Tags</h2>
+
+        <ul class="tags">
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+takamine+gd12ce+ns"
+                    >Violão Takamine GD12CE NS</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+takamine+gd12ce"
+                    >Violão Takamine GD12CE</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=gd12ce+ns"
+                    >GD12CE NS</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=gd12cens"
+                    >GD12CENS</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=violao+takamine"
+                    >Violão Takamine</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=takamine"
+                    >Takamine</a
+                >
+            </li>
+            <li><a href="https://www.koalamusic.com.br/buscar?q=gd">GD</a></li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=gd12">GD12</a>
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=natural"
+                    >Natural</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=takamine+natural"
+                    >Takamine Natural</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=madeira"
+                    >Madeira</a
+                >
+            </li>
+        </ul>
+    </section>
+</div>

@@ -1,0 +1,436 @@
+<head>
+    <link rel="stylesheet" href="./ROLAN-TD17KVX2.css" />
+</head>
+
+<div class="cnDescricaoPersonalizada">
+    <div id="header">
+        <ul>
+            <li><a href="#descricao">Descrição</a></li>
+            <!-- <li><a href="#caracteristicas">Características</a></li> -->
+            <li><a href="#garantia">Garantia</a></li>
+            <li><a href="#ficha-tecnica">Ficha Técnica</a></li>
+            <!-- <li><a href="#downloads">Downloads</a></li> -->
+            <!--	<li><a href="#comparativo">Comparativo</a></li> --><!--	<li><a href="#avaliacoes">Avaliações</a></li> -->
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+    </div>
+
+    <section id="videos">
+        <div class="videos-descricao">
+            <div class="video-wrapper active">
+                <iframe
+                    src="https://www.youtube.com/embed/nLdjL0c32bk?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0"
+                    frameborder="0"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+        <!-- <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button> -->
+
+        <script>
+            const videos = document.querySelectorAll(".video-wrapper");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            let currentIndex = 0;
+
+            function showVideo(index) {
+                videos.forEach((video, i) => {
+                    if (i === index) {
+                        video.classList.add("active");
+                    } else {
+                        video.classList.remove("active");
+                    }
+                });
+            }
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex > 0 ? currentIndex - 1 : videos.length - 1;
+                showVideo(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex < videos.length - 1 ? currentIndex + 1 : 0;
+                showVideo(currentIndex);
+            });
+        </script>
+    </section>
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="descricao">
+        <h2 class="titulo">Descrição</h2>
+
+        <h2>Bateria Eletrônica Roland V-Drums TD-17KVX2 9 pçs</h2>
+
+        <h1>
+            Ritmos Elevados: Explorando a Performance com a Bateria Eletrônica
+            Roland V-Drums TD-17KVX2 de 9 Peças
+        </h1>
+
+        <p class="justificado">
+            O kit TD-KVX2 eleva a aclamada série TD-17 das V-Drums a um outro
+            nível de expressividade com seu aprimorado módulo de som TD-17 e com
+            importantes upgrades de pads. Explore uma diversidade de novos kits
+            e efeitos, além de sons adicionais disponíveis no Roland Cloud.
+        </p>
+
+        <p class="justificado">
+            Toque com precisão e conforto graças ao chimbal de 12 polegadas
+            VH-10 montado em uma máquina de chimbal acústica (não inclusa).
+            Expresse toda sua identidade com o segundo prato de ataque de 12
+            polegadas.A TD-17KVX2 permite que sua expressão e técnica fluam, com
+            o apoio de ferramentas de estudo inspiradoras para te levar ainda
+            mais longe.
+        </p>
+
+        <p class="justificado">
+            A caixa de 12 polegadas com pele mesh head e seus recém
+            desenvolvidos pratos mais finos entregam uma experiência do mais
+            alto nível, que é surpreendentemente próxima à bateria acústica.
+            Além disso, um catálogo de treinos no modo “coach” acompanham sua
+            técnica, medem seu progresso e aumentam sua motivação diariamente.
+        </p>
+
+        <p class="justificado">
+            Com a TD-17KVX2, a jornada para se tornar um baterista cada vez
+            melhor é mais rápida do que você pode imaginar.
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="caracteristicas">
+        <h2 class="titulo">Características</h2>
+
+        <ul class="check">
+            <li>
+                Desenvolva suas técnicas com um pad de caixa PDX-12 de 12
+                polegadas com pele “mesh-head” de duas camada
+            </li>
+            <li>
+                Chimbal VH-10 de 12 polegadas, montável em máquina de chimbal
+                para uma performance mais expressiva
+            </li>
+            <li>
+                Módulo de Som TD-17 atualizado com novos kits, efeitos
+                expandidos, seções de compressão/reverb e sons de bateria
+                detalhados, dinâmicos e naturais
+            </li>
+            <li>
+                Escolha entre 70 presets de kits de bateria, incluindo 20 novos
+                kits com samples customizados
+            </li>
+            <li>
+                Desenvolva controle e expressão nos pés e técnicas de pedal com
+                o Pad de Bumbo KD-10
+            </li>
+            <li>
+                Pratos de ataque CY-12C-T de 12 polegadas e prato de condução
+                CY-14R-T de 14 polegadas mais finos para um toque mais natural e
+                movimento mais realista
+            </li>
+            <li>
+                Três tons PDX-8 com diâmetro total de 10 polegadas com peles
+                “mesh-head” de 8 polegadas e sensor de pele e borda
+            </li>
+            <li>Adicione pads e triggers externos para expandir seu kit</li>
+            <li>
+                Aprimore seu ritmo e contagem com os exercícios “Time Check” e
+                “Quiet Count” no modo Coach
+            </li>
+            <li>
+                O menu de aquecimento fornece uma rotina diária de exercícios
+                para auxiliar seu progresso
+            </li>
+            <li>
+                Ajuste a ambiência e o reverb de cada kit para se adequar aos
+                diferentes lugares que for tocar
+            </li>
+            <li>
+                Customize os kits de bateria nativos para criar seu próprio som
+                de bateria
+            </li>
+            <li>
+                Importe seus próprios samples para combinar e mesclar com os
+                sons nativos das V-Drums
+            </li>
+            <li>
+                Divirta-se tocando junto com suas músicas e videoaulas
+                favoritas, transmitindo o áudio do seu celular para o módulo via
+                Bluetooth®
+            </li>
+            <li>
+                Desenvolva sua técnica com o software gratuito Melodics para
+                V-Drums (macOs e Windows)
+            </li>
+            <li>
+                Explore novos horizontes com sons, samples e kits de artistas no
+                Roland Cloud
+            </li>
+        </ul>
+
+        <h4>TD-17KVX2:</h4>
+
+        <ul class="check">
+            <li>Módulo: TD-17 x 1</li>
+            <li>Caixa: PDX-12 x 1</li>
+            <li>Tom: PDX-8 x 3</li>
+            <li>Chimbal: VH-10 x 1</li>
+            <li>Ataque: CY-12C-T x 2</li>
+            <li>Condução: CY-14R-T x 1</li>
+            <li>Bumbo: KD-10 x 1</li>
+            <li>Rack: MDS-Compact x 1</li>
+            <li>
+                Este pacote não inclui pedal de bumbo, estante de chimbal, trono
+                de bateria e cartão SD
+            </li>
+        </ul>
+    </section>
+    <!-- ----------------------------------- -->
+
+    <hr />
+    <section id="garantia">
+        <h2 class="titulo">Garantia</h2>
+
+        <p style="text-align: center">
+            <img
+                height="255"
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/garantia-koala1-ano.png"
+                width="651"
+                alt="Imagem de garantia"
+            />
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="ficha-tecnica">
+        <h2 class="titulo">Ficha Técnica</h2>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr class="trOne">
+                    <td class="trOne">MARCA:</td>
+                    <td class="trOne">Roland</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MODELO:</td>
+                    <td class="trTwo">TD-17KVX2</td>
+                </tr>
+                <tr>
+                    <td class="trOne">CONFIGURAÇÃO DO KIT:</td>
+                    <td class="trOne">
+                        Módulo de som de bateria: TD-17 x 1; Caixa: PDX-12 x 1;
+                        Tom: PDX-8 x 3; Hi-hat: VH-10 x 1; Crash: CY-12C-T x 2;
+                        Ride: CY-14R-T x 1; Bumbo: KD-10 x 1; Suporte de
+                        bateria: MDS-COMPACT x 1. Este pacote não inclui pedal
+                        de bumbo, estante de chimbal, trono de bateria e cartão
+                        SD
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CONECTOR DE ENTRADA DE GATILHO EXTRA:</td>
+                    <td class="trTwo">
+                        2 (CRASH 2, AUX) *O conector CRASH 2 é usado para
+                        CY-12C-T do segundo prato de impacto.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- ------------------------- -->
+
+        <h4>DIMENSÕES</h4>
+
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">Altura</td>
+                    <td class="trOne">Largura</td>
+                    <td class="trOne">Comprimento</td>
+                    <td class="trOne">Peso</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">15,4cm</td>
+                    <td class="trTwo">132,6cm</td>
+                    <td class="trTwo">29,5cm</td>
+                    <td class="trTwo">11,5kg</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>DENTRO DA CAIXA</h4>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trTwo">
+                        01 Bateria Eletrônica Roland V-Drums TD-17KVX2 9 pçs
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trOne">01 Montagem do módulo de som</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Adaptador CA</td>
+                </tr>
+                <tr>
+                    <td class="trOne">01 Cabo de conexão especial</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Cabo de conexão (Crash2)</td>
+                </tr>
+                <tr>
+                    <td class="trOne">01 chave de bateria</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Guia de configuração</td>
+                </tr>
+                <tr>
+                    <td class="trOne">01 Manual do proprietário</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- <hr />
+    <section id="downloads">
+        <h2 class="titulo">Downloads</h2>
+
+        <h4>Guia Rápido</h4>
+
+        <h4>Manual do Usuário</h4>
+
+        <p>
+            <a
+                class="manual-downloads"
+                href="https://drive.google.com/file/d/1-m5YVZpObpW4aBZQjS76_9YX7GKTdIO9/view"
+                target="_blank"
+            >
+                Clique aqui</a
+            >
+            para fazer o download do manual.
+        </p>
+    </section> -->
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="action">
+        <p>
+            🎵 Encontre o som perfeito na Loja Koala Music! 🎶<br /><br />
+
+            Entenda por que comprar conosco é a escolha certa:<br />
+            ✅ Parcelamento sem juros e desconto à vista.<br />
+            ✅ Frete econômico para ajudar seu bolso.<br />
+            ✅ Garantia, nota fiscal e produtos originais garantidos.<br />
+            ✅ Atendimento dedicado e eficiente.<br /><br />
+
+            Vantagens adicionais em comprar conosco:<br />
+            ✅ Compra segura do começo ao fim.<br />
+            ✅ Pagamentos seguros intermediados pela Pagar.me e PagHiper.<br />
+            ✅ Política de Troca e Devolução em conformidade com o Código de
+            Defesa do Consumidor.<br />
+            ✅ Suporte atencioso e respeitoso.<br />
+            Não importa o que você procura, nós entregamos na sua porta.<br />
+            <a href="#comprar">🛒 Compre na Loja Koala Music agora mesmo! 🎶</a
+            ><br />
+        </p>
+         
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="tags">
+        <h2 class="titulo">Tags</h2>
+
+        <ul class="tags">
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=bateria+eletronica"
+                    >Bateria Eletrônica</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=bateria+9+pecas"
+                    >Bateria 9 Peças</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=bateria+eletronica"
+                    >Bateria Eletronica</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=bateria+roland"
+                    >Bateria Roland</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=roland+v+drums"
+                    >Roland V-Drums</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=roland+vdrums"
+                    >Roland VDrums</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=roland+v+drums"
+                    >Roland V Drums</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=bateria+digital"
+                    >Bateria Digital</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=kit+de+bateria"
+                    >Kit de Bateria</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=pad">Pad</a>
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=pad+de+bateria"
+                    >Pad de Bateria</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=roland+td+17kvx2"
+                    >Roland TD-17KVX2</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=roland+td17kvx2"
+                    >Roland TD17KVX2</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=roland+td+17kvx2"
+                    >Roland TD 17KVX2</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=td+17">TD-17</a>
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=td17">TD17</a>
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=td+17">TD 17</a>
+            </li>
+        </ul>
+    </section>
+</div>

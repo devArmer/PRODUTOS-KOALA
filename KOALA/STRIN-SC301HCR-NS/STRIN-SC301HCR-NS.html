@@ -1,0 +1,487 @@
+<head>
+    <link rel="stylesheet" href="./STRIN-SC301HCR-NS.css" />
+</head>
+
+<div class="cnDescricaoPersonalizada">
+    <div id="header">
+        <ul>
+            <li><a href="#descricao">Descrição</a></li>
+            <!-- <li><a href="#caracteristicas">Características</a></li> -->
+            <li><a href="#garantia">Garantia</a></li>
+            <li><a href="#ficha-tecnica">Ficha Técnica</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <!--	<li><a href="#comparativo">Comparativo</a></li> --><!--	<li><a href="#avaliacoes">Avaliações</a></li> -->
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+    </div>
+
+    <section id="videos">
+        <div class="videos-descricao">
+            <div class="video-wrapper active">
+                <iframe
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen=""
+                    frameborder="0"
+                    src="https://www.youtube.com/embed/UCeuLUHTrvc?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0"
+                    title="YouTube video player"
+                ></iframe>
+            </div>
+        </div>
+        <!-- <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button> -->
+
+        <script>
+            const videos = document.querySelectorAll(".video-wrapper");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+            let currentIndex = 0;
+
+            function showVideo(index) {
+                videos.forEach((video, i) => {
+                    if (i === index) {
+                        video.classList.add("active");
+                    } else {
+                        video.classList.remove("active");
+                    }
+                });
+            }
+
+            prevBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex > 0 ? currentIndex - 1 : videos.length - 1;
+                showVideo(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", () => {
+                currentIndex =
+                    currentIndex < videos.length - 1 ? currentIndex + 1 : 0;
+                showVideo(currentIndex);
+            });
+        </script>
+    </section>
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="descricao">
+        <h2 class="titulo">Descrição</h2>
+
+        <h2>Violão Nylon Strinberg Galaxy SC301HCR NS Efeitos</h2>
+
+        <h1>
+            Explorando Novos Sons: O Violão Nylon Strinberg Galaxy SC301HCR NS
+            com Efeitos Deslumbra os Sentidos Musicais!
+        </h1>
+
+        <p style="text-align: justify">
+            Chegou o esperado lançamento da Strinberg, para você alcançar novos
+            voos musicais. O Violão SC301HCR da Strinberg, marca já consagrada
+            na fabricação de instrumentos músicais, lança a série de violões com
+            efeitos, sem necessidade de estar plugado em um sistema de som,
+            basta acionar o efeito desejado e soltar a imaginação.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p style="text-align: justify">
+            O Galaxy SC301HCR com seu sistema eletrônico, com o Pré Galaxy , que
+            permite o uso de efeitos de Delay, Chorus e Reverbs (Room e Hall)
+            tanto plugado quanto desplugado. Além de contar com a tradicional
+            captação Piezo, e microfone interno, possui um Auto falante de 1
+            Polegada para reprodução de efeitos acusticamente, com autonômia de
+            uma bateria recarregável de até 17 horas utilizando seu efeitos
+            internos.
+        </p>
+        <!--   <img src="#" style="width: 100%;" />   -->
+
+        <p style="text-align: justify">
+            O seu corpo no formato "Artístico Half Cutaway ", utilizando cordas
+            de Nylon, fazem do SC301HCR um instrumento estiloso e robusto, mas
+            também super confortável para os músicos mais exigentes, dos mais
+            variados estilos musicais, graças ao seu Arm rest, desenvolvido para
+            que seu braço repouse com suavidade por horas, espantando o cansaço
+            e tornando ainda mais prazerosa toda versatilidade de sons e timbres
+            do Strinberg Galaxy.
+        </p>
+
+        <p style="text-align: justify">
+            Com seu corpo construído em madeiras tradicionais e selecionadas,
+            suas características sonoras apresentam timbres grandes e super
+            definidos. E para você levar seu companheiro para onde quiser, O
+            Galaxy SC301HCR já é acompanhado de um bag super especial da
+            Strinberg.
+        </p>
+
+        <p style="text-align: justify">
+            Todas estas características fazem do violão SC301HCR o parceiro
+            ideal para ensaios, apresentações ao vivo ou para curtir numa roda
+            de amigos. Não perca este super lançamento da Strinberg e alcance um
+            novo mundo musical!
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="caracteristicas">
+        <h2 class="titulo">Características</h2>
+
+        <ul class="check">
+            <li>
+                Apresenta um design único e atraente que se destaca visualmente.
+            </li>
+            <li>
+                Fabricado com materiais duráveis e de alta qualidade para
+                garantir longevidade e desempenho consistente.
+            </li>
+            <li>
+                Projetado para uma amplificação eficaz, sendo ideal tanto para
+                apresentações ao vivo quanto para sessões de gravação.
+            </li>
+            <li>
+                Possui um pré-amplificador de alta qualidade que assegura uma
+                reprodução fiel do som acústico, mesmo quando amplificado.
+            </li>
+            <li>
+                Braço ergonômico que proporciona conforto durante longas sessões
+                de prática ou apresentações.
+            </li>
+            <li>
+                As cordas de nylon produzem um timbre suave e caloroso, adequado
+                para gêneros musicais variados.
+            </li>
+            <li>
+                Acabamento refinado, com atenção aos detalhes estéticos,
+                resultando em um instrumento visualmente impressionante.
+            </li>
+            <li>
+                A combinação de efeitos e amplificação torna-o um violão ideal
+                para apresentações ao vivo com nuances sonoras distintas.
+            </li>
+        </ul>
+    </section>
+    <!-- ----------------------------------- -->
+
+    <hr />
+    <section id="garantia">
+        <h2 class="titulo">Garantia</h2>
+
+        <p style="text-align: center">
+            <img
+                height="255"
+                src="https://cdn.awsli.com.br/2001/2001327/arquivos/garantia-koala3-meses.png"
+                width="651"
+                alt="Imagem de garantia"
+            />
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="ficha-tecnica">
+        <h2 class="titulo">Ficha Técnica</h2>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr class="trOne">
+                    <td class="trOne">MARCA:</td>
+                    <td class="trOne">Strinberg</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MODELO:</td>
+                    <td class="trTwo">SC301HCR</td>
+                </tr>
+                <tr>
+                    <td class="trOne">FORMATO:</td>
+                    <td class="trOne">Artístico com Arm Rest</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CUTAWAY:</td>
+                    <td class="trTwo">Half Cutaway</td>
+                </tr>
+                <tr>
+                    <td class="trOne">DESTRO OU CANHOTO:</td>
+                    <td class="trOne">Destro</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">NÚMERO DE CORDAS:</td>
+                    <td class="trTwo">6</td>
+                </tr>
+                <tr>
+                    <td class="trOne">ENCORDOAMENTO:</td>
+                    <td class="trOne">Nylon / Tensão Normal</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">SÉRIE:</td>
+                    <td class="trTwo">Galaxy</td>
+                </tr>
+                <tr>
+                    <td class="trOne">MATERIAL DO TAMPO:</td>
+                    <td class="trOne">Spruce Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MATERIAL DE LATERAL:</td>
+                    <td class="trTwo">Sapele Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trOne">MATERIAL DE FUNDO:</td>
+                    <td class="trOne">Sapele Laminado</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">BRAÇO:</td>
+                    <td class="trTwo">Nato</td>
+                </tr>
+                <tr>
+                    <td class="trOne">ESCALA:</td>
+                    <td class="trOne">Indian Laurel</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">TRASTES:</td>
+                    <td class="trTwo">20</td>
+                </tr>
+                <tr>
+                    <td class="trOne">TARRAXAS:</td>
+                    <td class="trOne">Douradas / Borboletas Âmbar</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">ACABAMENTO:</td>
+                    <td class="trTwo">Fosco</td>
+                </tr>
+                <tr>
+                    <td class="trOne">COR:</td>
+                    <td class="trOne">Natural Satin (NS)</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">MARCAÇÕES DE ESCALA:</td>
+                    <td class="trTwo">Oval 12º casa</td>
+                </tr>
+                <tr>
+                    <td class="trOne">CAVALETE:</td>
+                    <td class="trOne">Indian Laurel</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">NUT:</td>
+                    <td class="trTwo">46,5mm</td>
+                </tr>
+                <tr>
+                    <td class="trOne">TENSOR:</td>
+                    <td class="trOne">Bilateral</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">CAPTAÇÃO E PREAMP:</td>
+                    <td class="trTwo">
+                        Piezo / Microfone Interno / Auto falante de 1 Polegada
+                        para reprodução de efeitos acusticamente;Pré Galaxy (com
+                        efeitos de ambiência e modulação)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trOne">CONTROLES DO PRÉ:</td>
+                    <td class="trOne">
+                        Volume Master, Volume Mic., Tonalidade, Ajuste Reverbs
+                        Room / Hall (On / Off dos efeitos via push button),
+                        Ajuste Delay / Chorus (aciona o Afinador Cromático via
+                        push button), Porta USB C para carregamento de bateria,
+                        Check Bateria
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">AUTONOMIA DA BATERIA:</td>
+                    <td class="trTwo">
+                        Plugado, sem os efeitos acionados: 168 horas; Plugado,
+                        com os efeitos acionados: 18 horas;Desplugado, com os
+                        efeitos acionados: 17 horas;Tempo de recarga, com a
+                        bateria totalmente esgotada: Aproximadamente 3 horas
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trOne">ACOMPANHA BAG:</td>
+                    <td class="trOne">Sim</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- ------------------------- -->
+        <!-- 
+        <h4>DIMENSÕES</h4>
+
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">Altura</td>
+                    <td class="trOne">Largura</td>
+                    <td class="trOne">Comprimento</td>
+                    <td class="trOne">Peso</td>
+                </tr>
+                <tr>
+                    <td class="trTwo">68,5cm</td>
+                    <td class="trTwo">42,6cm</td>
+                    <td class="trTwo">38,3cm</td>
+                    <td class="trTwo">15,6kg</td>
+                </tr>
+            </tbody>
+        </table> -->
+
+        <h4>DENTRO DA CAIXA</h4>
+
+        <table align="left" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="trOne">
+                        01 Violão Nylon Strinberg Galaxy SC301HCR NS Efeitos
+                    </td>
+                </tr>
+                <tr>
+                    <td class="trTwo">01 Bag</td>
+                </tr>
+                <tr>
+                    <td class="trOne">01 Cabo USB C</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="downloads">
+        <h2 class="titulo">Downloads</h2>
+
+        <h4>Guia Rápido</h4>
+
+        <h4>Manual do Usuário</h4>
+
+        <p>
+            <a
+                class="manual-downloads"
+                href="https://drive.google.com/file/d/13w5WpDzuf133wTRjyxggdLTOzlcMn1S7/view"
+                target="_blank"
+            >
+                Clique aqui</a
+            >
+            para fazer o download do manual.
+        </p>
+    </section>
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="action">
+        <p>
+            🎵 Encontre o som perfeito na Loja Koala Music! 🎶<br /><br />
+
+            Entenda por que comprar conosco é a escolha certa:<br />
+            ✅ Parcelamento sem juros e desconto à vista.<br />
+            ✅ Frete econômico para ajudar seu bolso.<br />
+            ✅ Garantia, nota fiscal e produtos originais garantidos.<br />
+            ✅ Atendimento dedicado e eficiente.<br /><br />
+
+            Vantagens adicionais em comprar conosco:<br />
+            ✅ Compra segura do começo ao fim.<br />
+            ✅ Pagamentos seguros intermediados pela Pagar.me e PagHiper.<br />
+            ✅ Política de Troca e Devolução em conformidade com o Código de
+            Defesa do Consumidor.<br />
+            ✅ Suporte atencioso e respeitoso.<br />
+            Não importa o que você procura, nós entregamos na sua porta.<br />
+            <a href="#comprar">🛒 Compre na Loja Koala Music agora mesmo! 🎶</a
+            ><br />
+        </p>
+         
+    </section>
+    <!-- ------------------------------ -->
+
+    <!-- ------------------------------ -->
+
+    <hr />
+    <section id="tags">
+        <h2 class="titulo">Tags</h2>
+
+        <ul class="tags">
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+com+efeitos"
+                    >Violão com efeitos</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=violao+eletrico"
+                    >Violão Elétrico</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=violao+nylon"
+                    >Violão Nylon</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=desplugado"
+                    >Desplugado</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+strinberg"
+                    >Violão Strinberg</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=nylon">Nylon</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+com+reverb"
+                    >Violão com reverb</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+com+delay"
+                    >Violão com Delay</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+com+chorus"
+                    >Violão com Chorus</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=violao+artistico"
+                    >Violão Artístico</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=acusticos"
+                    >Acústicos</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=violao+barato"
+                    >Violão barato</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=artistic"
+                    >Artistic</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=galaxy+sc301hcr"
+                    >Galaxy SC301HCR</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=sc301+hcr"
+                    >SC301 HCR</a
+                >
+            </li>
+            <li>
+                <a href="https://www.koalamusic.com.br/buscar?q=sc+301+hcr"
+                    >SC 301 HCR</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.koalamusic.com.br/buscar?q=strinberg+galaxy"
+                    >Strinberg Galaxy</a
+                >
+            </li>
+        </ul>
+    </section>
+</div>
